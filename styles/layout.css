@@ -10,7 +10,3 @@ body * {
     width: 100px;
     height: 100vh;
 }
-.container {
-    width: calc(100%-100px);
-    height: 100vh;
-}

@@ -6,7 +6,6 @@
     --main-blue: #02577A;
 }
 
-
 body {
     background-color: var(--bg-color);
     display: inline-block;
@@ -19,31 +18,63 @@ body {
 }
 .navi > .logo-box {
     width: 64px;
-    height: 58px;
-    margin-top: 52px;
-    margin-left: calc(50% - 32px);
+    height: 100px;
+    margin-left: 32px;
+    background: url(../assets/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-bottom: 2px solid var(--main-grey);
 }
-navi > .logo-box > .logo {
-    object-fit: contain;
-    width: 100%;
-}
 .navi > .nav-items {
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
 }
-.nav-items .btn {
-    padding: 18px 38px 18px 37px;
+.nav-items .button {
+    height: 60px;
+    width: auto;
+    margin-left: 32px;
+    /* padding: 18px 38px 18px 37px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
 }
-.nav-items .btn.home {
-    padding: 16px 32px;
-    margin-left: 10px;
-    margin-top: 28px;
+.bg-img {
+    background-repeat: no-repeat;
+    background-position: 16px 20px;
+}
+.bg-img.bg-img1 {
+    background-image: url(../assets/home.png);
+}
+.bg-img.bg-img2 {
+    background-image: url(../assets/calendar.png);
+}
+.bg-img.bg-img3 {
+    background-image: url(../assets/cubers.png);
+}
+.bg-img.bg-img4 {
+    background-image: url(../assets/controller.png);
+}
+.nav-items .nav-link {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-blue);
+    display: none;
+}
+.button:hover {
+    margin-left: 32px;
     background-color: #fff;
     border-radius: 20px 0 0 20px;
-    align-self: flex-end;
 }
 
 .navi:hover {
-    
+    transition: 1.2s;
+    width: 206px;
+}
+.navi:hover .nav-link {
+    display: flex;
 }

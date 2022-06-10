@@ -1,0 +1,16 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.navi {
+    width: 100px;
+    height: 100vh;
+}
+.container {
+    width: calc(100%-100px);
+    height: 100vh;
+}

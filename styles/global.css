@@ -1,0 +1,49 @@
+@import url(./layout.css);
+
+:root {
+    --bg-color: #E5E5E5;
+    --main-grey: #C4C4C4;
+    --main-blue: #02577A;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    display: inline-block;
+}
+
+.navi {
+    background-color: #F7F6FF;
+    display: flex;
+    flex-direction: column;
+}
+.navi > .logo-box {
+    width: 64px;
+    height: 58px;
+    margin-top: 52px;
+    margin-left: calc(50% - 32px);
+    border-bottom: 2px solid var(--main-grey);
+}
+navi > .logo-box > .logo {
+    object-fit: contain;
+    width: 100%;
+}
+.navi > .nav-items {
+    display: flex;
+    flex-direction: column;
+}
+.nav-items .btn {
+    padding: 18px 38px 18px 37px;
+}
+.nav-items .btn.home {
+    padding: 16px 32px;
+    margin-left: 10px;
+    margin-top: 28px;
+    background-color: #fff;
+    border-radius: 20px 0 0 20px;
+    align-self: flex-end;
+}
+
+.navi:hover {
+    
+}

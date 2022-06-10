@@ -17,13 +17,13 @@ body {
     flex-direction: column;
 }
 .navi > .logo-box {
-    width: 64px;
+    width: auto;
     height: 100px;
-    margin-left: 32px;
+    margin-left: 18px;
+    margin-right: 10px;
     background: url(../assets/logo.svg);
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 40px;
     border-bottom: 2px solid var(--main-grey);
 }
 .navi > .nav-items {
@@ -77,4 +77,5 @@ body {
 }
 .navi:hover .nav-link {
     display: flex;
+    opacity: 0.6;
 }

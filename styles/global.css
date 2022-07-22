@@ -1,20 +1,16 @@
 @import url(./layout.css);
-
-:root {
-    --bg-color: #E5E5E5;
-    --main-grey: #C4C4C4;
-    --main-blue: #02577A;
-}
+@import url(./desktop.css);
 
 body {
     background-color: var(--bg-color);
-    display: inline-block;
+    display: flex;
 }
 
 .navi {
     background-color: #F7F6FF;
     display: flex;
     flex-direction: column;
+    z-index: 1px;
 }
 .navi > .logo-box {
     width: auto;
@@ -79,3 +75,4 @@ body {
     display: flex;
     opacity: 0.6;
 }
+

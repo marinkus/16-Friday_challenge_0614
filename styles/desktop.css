@@ -1,0 +1,28 @@
+.content {
+    position: absolute;
+    left: 230px;
+    display: inline-block;
+    flex-direction: column;
+}
+.content > .row {
+    display: inline-block;
+    justify-content: space-around;
+    gap: 50px;
+}
+.row h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+}
+.row p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+.row > .col-12 {
+    display: flex;
+}
+.row  > img {
+    width: 100%;
+    object-fit: contain;
+}

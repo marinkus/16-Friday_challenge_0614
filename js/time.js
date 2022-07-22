@@ -7,7 +7,7 @@ function currentTime() {
    mm = (mm < 10) ? '0' + mm : mm;
 
     
-   let time = hh + ":" + mm
+   const time = hh + ":" + mm
 
   document.getElementById("clock").innerText = time; 
   let t = setTimeout(function(){ currentTime() }, 1000); 

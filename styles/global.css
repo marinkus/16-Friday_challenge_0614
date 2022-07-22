@@ -61,18 +61,20 @@ body {
     color: var(--main-blue);
     display: none;
 }
-.button:hover {
-    margin-left: 32px;
-    background-color: #fff;
-    border-radius: 20px 0 0 20px;
-}
-
-.navi:hover {
-    transition: 1.2s;
-    width: 206px;
-}
-.navi:hover .nav-link {
-    display: flex;
-    opacity: 0.6;
+@media(min-width: 850px) {
+    .button:hover {
+        margin-left: 32px;
+        background-color: #fff;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    .navi:hover {
+        transition: 1.2s;
+        width: 206px;
+    }
+    .navi:hover .nav-link {
+        display: flex;
+        opacity: 0.6;
+    }
 }
 
